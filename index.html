@@ -19,7 +19,7 @@
 
         <header>
           <h1>Hyde</h1>
-          <h2>A web-based backend for Jekyll</h2>
+          <h2>The Other Side of Jekyll</h2>
         </header>
 
         <section id="downloads" class="clearfix">
@@ -60,20 +60,29 @@ Documentation and licenses for these can be found in /docs.</p>
 <a name="installation" class="anchor" href="#installation"><span class="octicon octicon-link"></span></a>INSTALLATION</h3>
 
 <ol>
-<li>Locate the config file (/includes/config.php)</li>
-<li>Set the variables to your desired settings</li>
-<li>Ensure the directory for Hyde is writeable</li>
-<li>Grant ownership of your '/_posts' directory to user 'www-data'
+<li> Run ./install.sh</li>
+<li> Browse to http://{{ YOUR URL}}/install.php</li>
+<li> Copy the randomly generated password after installation.</li>
+<li> Browse to your URL, and log in with the username "admin" and the 10 character password from the install page.</li>
+<li> DELETE the files 'install.php' and 'install.sh' (for security)</li>
+</ol><hr><h5>
+<a name="if-the-installsh-script-fails" class="anchor" href="#if-the-installsh-script-fails"><span class="octicon octicon-link"></span></a>If the install.sh script fails:</h5>
 
-<ul>
-<li>(sudo chown -R www-data:www-data /var/www/{{your directory}}/_posts)</li>
-</ul>
-</li>
-<li>Browse to http://{{ YOUR URL}}/_installation/_install.php</li>
-<li>Copy the randomly generated password after installation.</li>
-<li>DELETE the file 'install.php' (for security)</li>
-<li>Browse to your URL, and log in with the username "admin" and the 10 character password from the install page.</li>
-</ol><h3>
+<pre lang="shell"><code>#Ensure the directory for Hyde is writeable
+sudo chmod -R 664 {{Hyde directory}}
+</code></pre>
+
+<pre lang="shell"><code>#Grant ownership of your '/_posts' directory to user 'www-data'
+sudo chown -R www-data:www-data /var/www/{{your directory}}/_posts
+</code></pre>
+
+<pre lang="shell"><code>#Change the name of 'includes/config.sample.php' to 'config.php'
+mv includes/config.sample.php includes/config.php
+
+#Fill in the values in config.php manually
+</code></pre>
+
+<hr><h3>
 <a name="acknowledgements" class="anchor" href="#acknowledgements"><span class="octicon octicon-link"></span></a>Acknowledgements</h3>
 
 <ul>
