@@ -1,0 +1,8 @@
+body { 
+background-image:url("cream_pixels.png");
+padding-bottom: 70px; }
+
+.col-centered {
+    float: none;
+    margin: 0 auto;
+}
