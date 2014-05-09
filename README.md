@@ -16,13 +16,11 @@ Documentation and licenses for these can be found in /docs.
 - A working Jekyll installation
 
 ### INSTALLATION
-1.  Locate the config file (/includes/config.php)
-2.  Set the variables to your desired settings
-3.  Run ./install.sh
-4.  Browse to http://{{ YOUR URL}}/_installation/_install.php
-5.  Copy the randomly generated password after installation.
-6.  DELETE the files 'install.php' and 'install.sh' (for security)
-7.  Browse to your URL, and log in with the username "admin" and the 10 character password from the install page.
+1.  Run ./install.sh
+2.  Browse to http://{{ YOUR URL}}/_installation/_install.php
+3.  Copy the randomly generated password after installation.
+4.  DELETE the files 'install.php' and 'install.sh' (for security)
+5.  Browse to your URL, and log in with the username "admin" and the 10 character password from the install page.
 
 ---
 
@@ -31,7 +29,8 @@ Documentation and licenses for these can be found in /docs.
 	* (sudo chmod -R 664 {{Hyde directory}})
 2.  Grant ownership of your '/_posts' directory to user 'www-data'
         * (sudo chown -R www-data:www-data /var/www/{{your directory}}/_posts)
-
+3. Change the name of '{{Hyde directory}}/includes/config.sample.php' 'config.php'
+4. Fill in the values in config.php manually
 ---
 
 ### Acknowledgements

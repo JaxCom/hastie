@@ -5,5 +5,5 @@ $siteurl = "{{YOUR MAIN SITE URL}}"; //Your website's main URL
 $backendurl = "{{URL FOR HYDE}}"; //The web URL for Hyde
 $sitename = "{{YOUR SITE NAME}}"; //Your website's name
 $hydetitle = "Hyde"; //Set a custom title for the navigation bar
-$postsdir = "/var/www/{{SOURCE DIRECTORY}}/_posts"; //Directory to store blog posts in
+$postsDirectory = "/var/www/{{SOURCE DIRECTORY}}/_posts"; //Directory to store blog posts in
 
