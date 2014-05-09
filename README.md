@@ -29,8 +29,8 @@ Documentation and licenses for these can be found in /docs.
 	* (sudo chmod -R 664 {{Hyde directory}})
 2.  Grant ownership of your '/_posts' directory to user 'www-data'
         * (sudo chown -R www-data:www-data /var/www/{{your directory}}/_posts)
-3. Change the name of '{{Hyde directory}}/includes/config.sample.php' 'config.php'
-4. Fill in the values in config.php manually
+3.  Change the name of '{{Hyde directory}}/includes/config.sample.php' 'config.php'
+4.  Fill in the values in config.php manually
 ---
 
 ### Acknowledgements
