@@ -1,53 +1,63 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
+    <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>Hyde by JaxCom</title>
-
-    <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
-    <script src="javascripts/scale.fix.js"></script>
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-
+    <link href='https://fonts.googleapis.com/css?family=Chivo:900' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print" />
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
+    <title>Hyde by JaxCom</title>
   </head>
+
   <body>
-    <div class="wrapper">
-      <header>
-        <h1>Hyde</h1>
-        <p>A web-based backend for Jekyll</p>
-        <p class="view"><a href="https://github.com/JaxCom/Hyde">View the Project on GitHub <small>JaxCom/Hyde</small></a></p>
-        <ul>
-          <li><a href="https://github.com/JaxCom/Hyde/zipball/master">Download <strong>ZIP File</strong></a></li>
-          <li><a href="https://github.com/JaxCom/Hyde/tarball/master">Download <strong>TAR Ball</strong></a></li>
-          <li><a href="https://github.com/JaxCom/Hyde">View On <strong>GitHub</strong></a></li>
-        </ul>
-      </header>
-      <section>
-        <h1>
+    <div id="container">
+      <div class="inner">
+
+        <header>
+          <h1>Hyde</h1>
+          <h2>A web-based backend for Jekyll</h2>
+        </header>
+
+        <section id="downloads" class="clearfix">
+          <a href="https://github.com/JaxCom/Hyde/zipball/master" id="download-zip" class="button"><span>Download .zip</span></a>
+          <a href="https://github.com/JaxCom/Hyde/tarball/master" id="download-tar-gz" class="button"><span>Download .tar.gz</span></a>
+          <a href="https://github.com/JaxCom/Hyde" id="view-on-github" class="button"><span>View on GitHub</span></a>
+        </section>
+
+        <hr>
+
+        <section id="main_content">
+          <h1>
 <a name="hyde" class="anchor" href="#hyde"><span class="octicon octicon-link"></span></a>Hyde</h1>
 
 <p>A web-based backend for Jekyll</p>
 
-<p>Author: Jeff Brown <a href="mailto:jbrown@jaxcom.org">jbrown@jaxcom.org</a></p>
+<ul>
+<li>Author: Jeff Brown <a href="mailto:jbrown@jaxcom.org">jbrown@jaxcom.org</a>
+</li>
+<li>Website: <a href="http://jaxcom.github.io/Hyde">http://jaxcom.github.io/Hyde</a>
+</li>
+</ul><h3>
+<a name="description" class="anchor" href="#description"><span class="octicon octicon-link"></span></a>DESCRIPTION</h3>
 
-<p>This is a utility for web-based authoring of Jekyll posts. 
+<p>Hyde is a utility for web-based authoring of Jekyll posts. 
 It uses SQLite for user login purposes.
 It also utilizes other libraries and tools listed at the end of this readme.
 Documentation and licenses for these can be found in /docs.</p>
 
-<h2>
-<a name="requirements" class="anchor" href="#requirements"><span class="octicon octicon-link"></span></a>REQUIREMENTS</h2>
+<h3>
+<a name="requirements" class="anchor" href="#requirements"><span class="octicon octicon-link"></span></a>REQUIREMENTS</h3>
 
 <ul>
 <li>PHP 5.5 (with PDO, SQLite3, or SQLiteDatabase)</li>
 <li>Ability to set permissions on server files and folders</li>
 <li>A working Jekyll installation</li>
-</ul><h2>
-<a name="installation" class="anchor" href="#installation"><span class="octicon octicon-link"></span></a>INSTALLATION</h2>
+</ul><h3>
+<a name="installation" class="anchor" href="#installation"><span class="octicon octicon-link"></span></a>INSTALLATION</h3>
 
 <ol>
 <li>Locate the config file (/includes/config.php)</li>
@@ -63,8 +73,8 @@ Documentation and licenses for these can be found in /docs.</p>
 <li>Copy the randomly generated password after installation.</li>
 <li>DELETE the file 'install.php' (for security)</li>
 <li>Browse to your URL, and log in with the username "admin" and the 10 character password from the install page.</li>
-</ol><h2>
-<a name="acknowledgements" class="anchor" href="#acknowledgements"><span class="octicon octicon-link"></span></a>Acknowledgements</h2>
+</ol><h3>
+<a name="acknowledgements" class="anchor" href="#acknowledgements"><span class="octicon octicon-link"></span></a>Acknowledgements</h3>
 
 <ul>
 <li>PHP Markdown Extra <a href="http://michelf.ca/projects/php-markdown/extra">http://michelf.ca/projects/php-markdown/extra</a>
@@ -76,13 +86,15 @@ Documentation and licenses for these can be found in /docs.</p>
 <li>PHP Login <a href="http://www.php-login.net">http://www.php-login.net</a>
 </li>
 </ul>
-      </section>
+        </section>
+
+        <footer>
+          Hyde is maintained by <a href="https://github.com/JaxCom">JaxCom</a><br>
+          This page was generated by <a href="http://pages.github.com">GitHub Pages</a>. Tactile theme by <a href="https://twitter.com/jasonlong">Jason Long</a>.
+        </footer>
+
+        
+      </div>
     </div>
-    <footer>
-      <p>Project maintained by <a href="https://github.com/JaxCom">JaxCom</a></p>
-      <p>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></p>
-    </footer>
-    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
-    
   </body>
 </html>
