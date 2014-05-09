@@ -10,7 +10,7 @@ function rand_string( $length ) {
 
 	$size = strlen( $chars );
 	for( $i = 0; $i < $length; $i++ ) {
-		$str .= $chars[ rand( 0, $size - 1 ) ];
+		$str = $chars[ rand( 0, $size - 1 ) ];
 	}
 
 	return $str;
@@ -23,7 +23,7 @@ error_reporting(E_ALL);
 
 // config
 $db_type = "sqlite";
-$db_sqlite_path = "../users.db";
+$db_sqlite_path = "./users.db";
 
 // create new database file / connection (the file will be automatically created the first time a connection is made up)
 $db_connection = new PDO($db_type . ':' . $db_sqlite_path);
