@@ -19,21 +19,20 @@ Documentation and licenses for these can be found in /docs.
 1.  Locate the config file (/includes/config.php)
 2.  Set the variables to your desired settings
 3.  Run ./install.sh
+4.  Browse to http://{{ YOUR URL}}/_installation/_install.php
+5.  Copy the randomly generated password after installation.
+6.  DELETE the files 'install.php' and 'install.sh' (for security)
+7.  Browse to your URL, and log in with the username "admin" and the 10 character password from the install page.
 
 ---
 
-#### If the install.sh script fails
-4.  Ensure the directory for Hyde is writeable
-5.  Grant ownership of your '/_posts' directory to user 'www-data'
-	* (sudo chown -R www-data:www-data /var/www/{{your directory}}/_posts)
+##### If the install.sh script fails
+1.  Ensure the directory for Hyde is writeable
+	* (sudo chmod -R 664 {{Hyde directory}})
+2.  Grant ownership of your '/_posts' directory to user 'www-data'
+        * (sudo chown -R www-data:www-data /var/www/{{your directory}}/_posts)
 
 ---
-
-6.  Browse to http://{{ YOUR URL}}/_installation/_install.php
-7.  Copy the randomly generated password after installation.
-8.  DELETE the files 'install.php' and 'install.sh' (for security)
-9.  Browse to your URL, and log in with the username "admin" and the 10 character password from the install page.
-
 
 ### Acknowledgements
 - PHP Markdown Extra <http://michelf.ca/projects/php-markdown/extra>
