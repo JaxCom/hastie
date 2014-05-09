@@ -2,7 +2,7 @@ Hyde
 ====
 A web-based backend for Jekyll
 - Author: Jeff Brown <jbrown@jaxcom.org>
-- Website: http://jaxcom.github.io/hyde
+- Website: http://jaxcom.github.io/Hyde
 
 ### DESCRIPTION
 Hyde is a utility for web-based authoring of Jekyll posts. 
