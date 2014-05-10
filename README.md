@@ -1,11 +1,11 @@
-Hyde
+Hastie
 ====
 A web-based backend for Jekyll
 - Author: Jeff Brown <jbrown@jaxcom.org>
-- Website: http://jaxcom.github.io/Hyde
+- Website: http://jaxcom.github.io/Hastie
 
 ### DESCRIPTION
-Hyde is a utility for web-based authoring of Jekyll posts. 
+Hastie is a utility for web-based authoring of Jekyll posts. 
 It uses SQLite for user login purposes.
 It also utilizes other libraries and tools listed at the end of this readme.
 Documentation and licenses for these can be found in /docs.
@@ -27,8 +27,8 @@ Documentation and licenses for these can be found in /docs.
 ##### If the install.sh script fails:
 
 ```shell
-#Ensure the directory for Hyde is writeable
-sudo chmod -R 664 {{Hyde directory}}
+#Ensure the directory for Hastie is writeable
+sudo chmod -R 664 {{Hastie directory}}
 ```
 
 ```shell
