@@ -1,21 +1,18 @@
 <!DOCTYPE html>
 <?php
-session_start();
-if (!isset($_SESSION['user_is_logged_in']) || $_SESSION['user_is_logged_in'] === FALSE) {
-header("Location: /user_login"); /* Redirect browser */
-}
+
 include('includes/header.php');
+userLoginChecker();
 ?>
 	<!-- markItUp! skin -->
-	<link rel="stylesheet" type="text/css" href="markitup/skins/markitup/style.css">
+	<link rel="stylesheet" type="text/css" href="/markitup/skins/markitup/style.css">
 	<!--  markItUp! toolbar skin -->
-	<link rel="stylesheet" type="text/css" href="markitup/sets/markdown/style.css" />
+	<link rel="stylesheet" type="text/css" href="/markitup/sets/markdown/style.css" />
 	<!-- markItUp! -->
-	<script type="text/javascript" src="markitup/jquery.markitup.js"></script>
+	<script type="text/javascript" src="/markitup/jquery.markitup.js"></script>
 	<!-- markItUp! toolbar settings -->
-	<script type="text/javascript" src="markitup/sets/markdown/set.js"></script>
+	<script type="text/javascript" src="/markitup/sets/markdown/set.js"></script>
 
-<?php include('includes/navbar.php'); ?>
 
 <div class="row">
 <div class="col-7 col-md-7 col-lg-7 col-sm-7">

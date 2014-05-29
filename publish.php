@@ -1,10 +1,8 @@
 <?php
-session_start();
-if (!isset($_SESSION['user_is_logged_in']) || $_SESSION['user_is_logged_in'] === FALSE) {
-header("Location: /user_login"); /* Redirect browser */
-}
 include('includes/header.php');
-include('includes/navbar.php');
+userLoginChecker();
+
+
 
 //Build command for site content
 $buildcmd = 'jekyll build -s '.$sourcedir.' -d '.$webroot.' 2>&1';

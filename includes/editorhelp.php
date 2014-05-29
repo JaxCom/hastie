@@ -9,5 +9,5 @@ First, name your new post.</p>
 <p>Just click the check button for an instant preview of your work so far. 
 <hr>
 <h4>Publishing</h4>
-<p>To publish your post, just click the "Publish" button. You will see a status report on the next page. </p>
-<p>Your post should be live within five to ten minutes.</p> 
+<p>To save your post, just click the "Save" button. You will see a status report on the next page. </p>
+<p>To publish the new post, simply proceed to the Publish page from the next page, or click the "Publish Site" button in the top navigation.</p> 

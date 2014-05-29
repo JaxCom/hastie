@@ -2,10 +2,12 @@
 <?php
 session_start();
 include('includes/config.php');
+include('includes/navbar.php'); 
+include('includes/functions.php');
 ?>
 <head>
 <title>Publishing Center | <?php echo $sitename; ?></title>
-<link rel="stylesheet" href="http://bootswatch.com/spacelab/bootstrap.min.css">
+<link rel="stylesheet" href="/css/bootstrap.min.css">
 <link rel="stylesheet" href="includes/styles.css">
 <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
 	<!-- jQuery -->

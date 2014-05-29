@@ -1,7 +1,8 @@
 <?php
 session_start();
 include('includes/header.php');
-include('includes/navbar.php');
+
+
 /**
  * Class OneFileLoginApplication
  *
@@ -165,7 +166,7 @@ class OneFileLoginApplication
         session_destroy();
         $this->user_is_logged_in = false;
         $this->feedback = "You were just logged out.";
-header("Location: /user_login"); /* Redirect browser */
+header("Location: /user/login"); /* Redirect browser */
     }
 
     /**
@@ -364,9 +365,9 @@ header("Location: /user_login"); /* Redirect browser */
         }
 
         echo 'Welcome back, ' . $_SESSION['user_name'] . '!<br/><br/>';
-        echo '<a href="' . $backendurl . '/user_logout">Log out</a>';
+        echo '<a href="' . $backendurl . '/user/logout">Log out</a>';
 	if (!isset($_GET['action'])) {
-header("Location: /action_create"); /* Redirect browser */
+header("Location: /action/create"); /* Redirect browser */
 	}
 
 
@@ -410,13 +411,13 @@ header("Location: /action_create"); /* Redirect browser */
         }
 
 if (!isset($_SESSION['user_is_logged_in']) || $_SESSION['user_is_logged_in'] === FALSE) {
-header("Location: /user_login"); /* Redirect browser */
+header("Location: /user/login"); /* Redirect browser */
 }
 else {
 	echo '<div class="col-centered col-9 col-sm-12 col-md-9 col-lg-9">';
         echo '<div class="panel panel-default"><div class="panel-heading"><h3 class="panel-title">Add User</h3></div>';
 	echo '<div class="panel-body">';
-        echo '<form class="form-horizontal" method="post" action="/user_register" name="registerform">';
+        echo '<form class="form-horizontal" method="post" action="/user/register" name="registerform">';
         echo '<div class="form-group"><label class="col-sm-4 control-label" for="login_input_username">Username (only letters and numbers, 2 to 64 characters)</label>';
         echo '<div class="col-8 col-sm-8 col-md-8 col-lg-8">';
 	echo '<input class="form-control" id="login_input_username" type="text" pattern="[a-zA-Z0-9]{2,64}" name="user_name" required />';

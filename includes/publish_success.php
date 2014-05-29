@@ -10,7 +10,7 @@ Your content has been successfully published to your site!
   <div class="panel-footer">
 <a class="btn btn-small btn-info" href="index.php">New Post</a>
 <a class="btn btn-small btn-warning" href="<?php echo $siteurl; ?>" target="_new">View Site</a>
-<a class="btn btn-small btn-danger pull-right" href="/user_logout">Log Out</a>
+<a class="btn btn-small btn-danger pull-right" href="/user/logout">Log Out</a>
 </div>
 </div>
 </div>

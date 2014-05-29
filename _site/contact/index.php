@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Florida I.C.A.A.</title>
+        <meta name="viewport" content="width=device-width">
+
+        <!-- syntax highlighting CSS 
+        <link rel="stylesheet" href="/css/syntax.css"> -->
+
+        <!-- Custom CSS 
+        <link rel="stylesheet" href="/css/main.css"> -->
+
+<!-- Latest compiled and minified CSS -->
+<link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" rel="stylesheet">
+<link rel="stylesheet" href="//bootswatch.com/lumen/bootstrap.min.css">
+
+
+<link rel="stylesheet" href="/css/styles.css">
+
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+
+
+    </head>
+    <body>
+
+
+<div class="well well-sm" style="color:#aeaeae;border-radius:0px;background-image:url('/images/flc_header_2.png');background-size:cover;background-color:#333;min-width:100%;">
+<center>
+<!-- uncomment
+<div id="box"> -->
+<!-- that ^ -->
+          <img src="http://flica.jaxcom.org/images/flicawhite.png"> 
+<!-- uncomment
+</div>  -->
+<!-- ^ and that -->
+    
+<h5 style="color:#aeaeae;!important"><strong>Advancing the practice and appreciation of the classical tradition in architecture, urbanism and the allied arts</strong></h5>
+        </center>
+</div>
+
+
+
+
+
+<!-- Begin Body -->
+<div class="container">
+<div class="no-gutter row">
+<!-- left side column -->
+<div class="col-md-2">
+<div class="sidebar panel panel-default" id="sidebar">
+<!-- was #888 -->
+<div class="panel-heading" style="background-color:#636A86;color:#fff;"><h3 class="panel-title"><i class="fa fa-chevron-circle-down fa-lg"></i> Information</h3></div> 
+<div class="panel-body">
+<ul class="nav nav-stacked leftnav">
+
+	<li><p><i class="fa fa-home"></i> <a href="http://flica.jaxcom.org">Home</a></p></li>
+	<li><p><i class="fa fa-check-square-o"></i> <a href="http://flica.jaxcom.org/mission">Mission</a></p></li>
+	<li><p><i class="fa fa-flag-o"></i> <a href="http://flica.jaxcom.org/mizner-awards">Mizner Awards</a></p></li>
+	<li><p><i class="fa fa-group"></i> <a href="http://flica.jaxcom.org/local-board">Local Board</a></p></li>
+	<li><p><i class="fa fa-thumbs-up"></i> <a href="http://classicist.org/membership-and-chapters/benefits-and-categories/" target="_new">Become a Member</a></p></li>
+	<li><p><i class="fa fa-folder"></i> <a href="http://classicist.org/membership-and-chapters/" target="_new">Member Directory</a></p></li>
+	<li><p><i class="fa fa-picture-o"></i> <a href="http://flica.jaxcom.org/media-gallery">Media Gallery</a></p></li>
+	<li><p><i class="fa fa-envelope-o"></i> <a href="http://flica.jaxcom.org/contact">Contact</a></p></li>
+</ul>
+
+<hr>
+<!--
+                <div class="accordion" id="accordion2">
+                    <div class="accordion-group">
+                        <div class="accordion-heading">
+                           <p><i class="fa fa-bullhorn"></i> <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne">
+                                Social Media <i class="fa fa-caret-down"></i> 
+                            </a></p>
+                        </div>
+<div id="collapseOne" class="accordion-body collapse">
+<div class="accordion-inner">
+	<p>&nbsp;<i class="fa fa-keyboard-o"></i> <a href="#" target="_new">Blog</a></p>
+	<p>&nbsp;<i class="fa fa-facebook-square"></i> <a href="#" target="_new"> Facebook</a></p>
+	<p>&nbsp;<i class="fa fa-twitter"></i> <a href="#" target="_new">Twitter</a></p>
+<hr>
+</div>
+</div>
+</div>
+
+
+<div class="accordion-group">
+<div class="accordion-heading">
+<p><i class="fa fa-key"></i> 
+<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseTwo">
+Membership <i class="fa fa-caret-down"></i></a> </p>
+</div>
+<div id="collapseTwo" class="accordion-body collapse">
+<div class="accordion-inner">
+	Benefits<br>
+	Events<br>
+	Donations
+<hr>
+</div>
+</div>
+</div>
+
+</div>
+-->
+                 <div class="accordion" id="accordion3">
+                    <div class="accordion-group">
+                        <div class="accordion-heading">
+                           <p><i class="fa fa-globe"></i> <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion3" href="#collapseThree">
+                                National Links <i class="fa fa-caret-down"></i> 
+                            </a></p>
+                        </div>
+<div id="collapseThree" class="accordion-body collapse">
+<div class="accordion-inner">
+	<p>&nbsp;<i class="fa fa-list-alt"></i> <a href="#" target="_new">Newsletter</a></p>
+	<p>&nbsp;<i class="fa fa-book"></i> <a href="#" target="_new">Classicist Book</a></p>
+	<p>&nbsp;<i class="fa fa-money"></i> <a href="#" target="_new">Donate Now</a></p>
+
+</div>
+</div>
+</div>
+</div>                 
+<hr>
+
+                <div class="col col-span-12"><center>
+                 <a href="https://www.facebook.com/flclassicist"> <i class="fa fa-facebook-square fa-2x"></i></a>&nbsp;
+                 <a href="https://twitter.com/Flclassicist"> <i class="fa fa-twitter fa-2x"></i></a>&nbsp;
+                 <a href="#"> <i class="fa fa-pinterest fa-2x"></i></a>
+                </center></div>
+                
+                </div><!--/panel body-->
+              </div><!--/panel-->
+      		</div><!--/end left column-->
+      			
+      		<!--mid column-->
+      		<div class="col-md-3">
+              <div class="panel" id="midCol">
+                <div class="panel-heading" style="background-color:#D46327;color:#F0F8FF;">
+		<h3 class="panel-title"><i class="fa fa-calendar fa-lg"></i>  I.C.A.A. Events</h3></div> 
+                <div class="panel-body">
+                  
+                  <!-- liquid template for featured event -->
+
+    
+
+                  <div class="well">
+
+<img width="200" class="img-responsive" src="http://flica.jaxcom.org/images/post_thumbs/mizner-awards.jpg">
+
+                          <h4>The 2014 Addison Mizner Awards</h4>
+		
+			<p><b>Date: June 29 2014</b></p>
+		
+
+                          <p>
+
+			<p>The Addison Mizner Medal For Excellence in Classical and Traditional Architecture The Florida Chapter of the ICAA Call for Entries 2014 </p>
+
+                         
+			</p>
+	<center><p><a href="/The-2014-Addison-Mizner-Awards"><i class="fa fa-chevron-right"></i> View Details</a></p></center>
+                  </div>
+   
+
+
+
+
+
+
+
+
+
+
+
+
+  
+<!-- end featured event template -->
+                  <hr> 
+                  
+<!-- liquid template for events -->
+
+    
+
+
+
+
+    
+
+
+    
+
+
+
+
+                  <div class="media" id="midcol">
+
+                    <div class="media-body">
+                      <h5 class="media-heading"><a href="/National-Trust-Caribbean-Perspective" class="pull-right"><!--<i class="glyphicon glyphicon-share"></i>--></a>
+<strong>The National Trust for Historic Preservation A Caribbean Perspective</strong></h5>
+		
+			<small><i>Date: May 16 2014</i></small>
+		
+                      <p><small><p>Professor Jorge Hernandez University of Miami School of Architecture, National Trust for Historic Preservation.</p>
+
+</small></p>
+	<center><p><a href="/National-Trust-Caribbean-Perspective"><i class="fa fa-chevron-right"></i> View Details</a></p></center>
+                    </div>
+                  </div>
+<hr>
+
+
+    
+
+
+
+
+                  <div class="media" id="midcol">
+
+                    <div class="media-body">
+                      <h5 class="media-heading"><a href="/open-house-and-dedication-church-jesus-christ-latter-day-saints" class="pull-right"><!--<i class="glyphicon glyphicon-share"></i>--></a>
+<strong>Open House and Dedication of The Church of Jesus Christ of Latter-Day Saints</strong></h5>
+		
+			<small><i>Date: April 17 2014</i></small>
+		
+                      <p><small><p>The ICAA Florida Chapter has a unique opportunity to understand  the role of traditional architecture in the design of current and future temples around the world, and the impact on the built environment. </p>
+
+</small></p>
+	<center><p><a href="/open-house-and-dedication-church-jesus-christ-latter-day-saints"><i class="fa fa-chevron-right"></i> View Details</a></p></center>
+                    </div>
+                  </div>
+<hr>
+
+
+    
+
+
+
+
+                  <div class="media" id="midcol">
+
+                    <div class="media-body">
+                      <h5 class="media-heading"><a href="/The-2013-Addison-Mizner-Awards" class="pull-right"><!--<i class="glyphicon glyphicon-share"></i>--></a>
+<strong>The 2013 Addison Mizner Awards</strong></h5>
+		
+			<small><i>Date: October 19 2013</i></small>
+		
+                      <p><small><p>The Florida Chapter of the Institute of Classical Architecture and Art is pleased to announce that the 2013 Addison Mizner Medal Recipients will receive their Medals on Saturday, October 19, 2013 at a Reception to be held at The Colony Hotel in Palm Beach, Florida.</p>
+
+</small></p>
+	<center><p><a href="/The-2013-Addison-Mizner-Awards"><i class="fa fa-chevron-right"></i> View Details</a></p></center>
+                    </div>
+                  </div>
+<hr>
+
+
+    
+
+
+    
+
+
+    
+
+<!-- end event template -->
+
+
+                  
+                  
+               </div> 
+               </div><!--/panel-->
+      		</div><!--/end mid column-->
+
+
+      		<div class="col-md-7" id="content">
+            	<div class="panel">
+			<!-- was #111 -->
+    			<div class="panel-heading" style="background-color:#a0a673;color:#F0F8FF;"><h3 class="panel-title"><i class="fa fa-arrow-circle-o-right fa-lg"></i> Contact Us</h3></div>   
+              	<div class="panel-body">
+                  
+                  <div class="row">
+                  <div class="col-md-12">
+          <h4>Mailing address</h4>
+<p>Florida Chapter of the ICAA<br>
+PO Box 13188<br>
+Jacksonville, FL 32206<br>
+<br>
+Lane Manis:<br>
+Florida Chapter Coordinator<br>
+lane@flclassicist.org<br>
+<hr>
+<h4>Send us an e-mail</h4>
+
+<?php
+if (isset($_POST['submitmsg'])) {
+		$name = $_POST['name'];
+		$subject = $_POST['subject'];
+		$message = $_POST['message'];
+		$email = $_POST['email'];
+		$emailTo = 'jbrown@jaxcom.org';
+		$subject = $subject.' from '.$name;
+		$body = "Name: $name \n\nEmail: $email \n\nMessage: $message";
+		$headers = 'From: ' .' <'.$email.'>' . "\r\n" . 'Reply-To: ' . $email;
+		mail($emailTo, $subject, $body, $headers);
+
+		echo "<div class='alert alert-success'>Thanks! We'll get back to you shortly.</div>";
+
+        
+}
+?>
+
+<form class="form-horizontal" method="POST" action="{{ site.url}}/contact">
+<fieldset>
+
+<!-- Form Name -->
+
+
+<!-- Text input-->
+<div class="form-group">
+ 
+  <div class="col-md-12">
+  <input id="name" name="name" type="text" placeholder="Your Name" class="form-control input-md" required="">
+    
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="form-group">
+
+  <div class="col-md-12">
+  <input id="email" name="email" type="text" placeholder="Email Address" class="form-control input-md" required="">
+    
+  </div>
+</div>
+
+<!-- Select Basic -->
+<div class="form-group">
+
+  <div class="col-md-12">
+  <input id="subject" name="subject" type="text" placeholder="Message Subject" class="form-control input-md" required="">
+  </div>
+</div>
+
+<!-- Textarea -->
+<div class="form-group">
+
+  <div class="col-md-12">                     
+    <textarea class="form-control" id="message" name="message">Your message here</textarea>
+  </div>
+</div>
+
+<!-- Button -->
+<div class="form-group">
+
+  <div class="col-md-12">
+    <button value="submitmsg" type="submit" id="submitmsg" name="submitmsg" class="btn btn-success">Send</button>
+  </div>
+</div>
+
+</fieldset>
+</form>
+<br>
+
+
+
+
+
+                  </div> 
+                  </div> 
+                </div><!--/panel-body-->
+                </div><!--/panel-->
+              	<!--/end right column-->
+      	</div> 
+  	</div>
+</div>
+<script>
+$('#sidebar').affix({
+      offset: {
+        top: 230,
+        bottom: 100
+      }
+});	
+$('#midCol').affix({
+      offset: {
+        top: 230,
+        bottom: 100
+      }
+});	
+</script>
+         
+    <div class="container">
+      <p class="navbar-text"><center> &copy 2014 Florida Institute of Classical Art and Architecture </center>
+
+      </p>
+      
+      <a href="#" class="navbar-btn btn-info btn pull-right">
+      <i class="fa fa-chevron-up"></i> To Top</a>
+    </div>
+    
+    
+
+<script>
+$(document.links).filter(function() {
+    return this.hostname != window.location.hostname;
+}).attr('target', '_blank');
+
+$( "img" ).addClass( "img-responsive" );
+
+</script>
+
+
+    </body>
+</html>
